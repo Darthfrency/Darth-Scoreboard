@@ -27,7 +27,7 @@ body {
     
     display: flex;
     flex-direction: row ;
-    justify-content: center;  
+    justify-content: center;
 }
 
 .aziende {
@@ -54,11 +54,12 @@ body {
     left: 50%;  
     transform: translate(-50%,50%);
     background-color: rgb(44, 44, 44);
-    fill-opacity: 0.8;
+    fill-opacity: 1;
     height: fit-content;
     width: fit-content;
     border: 2px solid aliceblue;
-    border-radius: 12px;    
+    border-radius: 12px;
+
 }
 #container.animate{
     animation-name: open;
